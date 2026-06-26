@@ -1,0 +1,48 @@
+# Gradle
+.gradle/
+/build/
+/app/build/
+/local.properties
+
+# Kotlin
+.kotlin/
+
+# Android Studio / IntelliJ
+*.iml
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/deploymentTargetSelector.xml
+.idea/deviceManager.xml
+.idea/shelf/
+
+# Built artifacts
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+/captures/
+
+# Native build
+.externalNativeBuild/
+.cxx/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Signing keys (never commit)
+*.jks
+*.keystore
+keystore.properties
+
+# Secrets
+.env
+*.env

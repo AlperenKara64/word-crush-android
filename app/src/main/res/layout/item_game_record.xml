@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvGameId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Oyun 1"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/tvGameDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tarih: 01.01.2024"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tvGameGrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grid: 8x8"
+            android:textSize="14sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DDDDDD"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2">
+
+            <TextView
+                android:id="@+id/tvGameScore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Puan: 1000"
+                android:textSize="14sp"
+                android:layout_gravity="start" />
+
+            <TextView
+                android:id="@+id/tvGameWordCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kelime: 10"
+                android:textSize="14sp"
+                android:layout_gravity="end" />
+
+            <TextView
+                android:id="@+id/tvGameLongestWord"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="En Uzun: KELİME"
+                android:textSize="14sp"
+                android:layout_gravity="start"
+                android:layout_marginTop="4dp" />
+
+            <TextView
+                android:id="@+id/tvGameDuration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Süre: 5 dk"
+                android:textSize="14sp"
+                android:layout_gravity="end"
+                android:layout_marginTop="4dp" />
+
+        </GridLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

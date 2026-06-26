@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Word Crush</string>
+    <string name="username_placeholder">Kullanıcı Adı</string>
+    <string name="welcome_message">Word Crush\'a Hoş Geldin!</string>
+    <string name="username_hint">Kullanıcı adınızı girin</string>
+    <string name="save_and_continue">Kaydet ve Devam Et</string>
+    <string name="empty_name_error">Lütfen bir isim girin</string>
+    <string name="game_starting_soon">Oyun Yakında Başlayacak!</string>
+
+    <!-- Ana Ekran -->
+    <string name="new_game">Yeni Oyun</string>
+    <string name="high_scores">Skor Tablosu</string>
+    <string name="market">Market</string>
+
+    <!-- Seçenekler -->
+    <string name="select_grid_size">Grid Boyutu Seçin</string>
+    <string name="grid_6x6">6x6 (Zor Seviye)</string>
+    <string name="grid_8x8">8x8 (Orta Seviye)</string>
+    <string name="grid_10x10">10x10 (Kolay Seviye)</string>
+
+    <string name="select_move_count">Hamle Sayısı Seçin</string>
+    <string name="moves_easy">25 Hamle (Kolay Level)</string>
+    <string name="moves_medium">20 Hamle (Orta Level)</string>
+    <string name="moves_hard">15 Hamle (Zor Level)</string>
+    <string name="back">Geri</string>
+    <!-- Skor Tablosu -->
+    <string name="scoreboard_title">Skor Tablosu</string>
+    <string name="total_games">Toplam Oyun: %1$d</string>
+    <string name="highest_score">En Yüksek Puan: %1$d</string>
+    <string name="average_score">Ortalama Puan: %1$d</string>
+    <string name="total_words">Toplam Kelime: %1$d</string>
+    <string name="longest_word">En Uzun Kelime: %1$s</string>
+    <string name="total_duration">Toplam Süre: %1$s</string>
+
+    <string name="game_card_title">Oyun %1$d</string>
+    <string name="game_card_date">Tarih: %1$s</string>
+    <string name="game_card_grid">Grid: %1$s</string>
+    <string name="game_card_score">Puan: %1$d</string>
+    <string name="game_card_word_count">Kelime Sayısı: %1$d</string>
+    <string name="game_card_duration">Süre: %1$s</string>
+    <!-- Market -->
+    <string name="market_title">Market</string>
+    <string name="current_gold">Mevcut Altın: %1$d</string>
+    <string name="buy">Satın Al (%1$d Altın)</string>
+    <string name="insufficient_gold">Yetersiz Altın!</string>
+    <string name="purchase_success">Satın alma başarılı!</string>
+
+    <string name="joker_swap_name">Harf Değiştir</string>
+    <string name="joker_swap_desc">Seçilen iki harfin yerini değiştirir.</string>
+
+    <string name="joker_bomb_name">Bomba</string>
+    <string name="joker_bomb_desc">Seçilen bölgedeki 3x3 alanı temizler.</string>
+
+    <string name="joker_hint_name">İpucu</string>
+    <string name="joker_hint_desc">Tabloda rastgele bir kelimeyi parlatır.</string>
+
+    <string name="joker_refresh_name">Tabloyu Yenile</string>
+    <string name="joker_refresh_desc">Tüm harfleri karıştırıp yenileriyle değiştirir.</string>
+    <string name="possible_words_count">Gridde Oluşturulabilir Kelime Sayısı: %1$d</string>
+    <string name="no_words_left">Kelime kalmadı! Tablo yenileniyor...</string>
+    <string name="game_over_score">Oyun Bitti! Skor: %1$d</string>
+    <!-- Market Yeni Jokerler -->
+    <string name="joker_fish_name">Balık</string>
+    <string name="joker_fish_desc">Gridde rastgele olarak harfleri yok etmektedir.</string>
+
+    <string name="joker_wheel_name">Tekerlek</string>
+    <string name="joker_wheel_desc">Seçilen harfin bulunduğu satır ve sütundaki tüm harfleri yok eder.</string>
+
+    <string name="joker_lollipop_name">Lolipop Kırıcı</string>
+    <string name="joker_lollipop_desc">Seçilen tek bir harfi yok eder.</string>
+
+    <string name="joker_swap_free_name">Serbest Değiştirme</string>
+    <string name="joker_swap_free_desc">Birbirine temas eden iki harfin yerini değiştirir.</string>
+
+    <string name="joker_shuffle_name">Harf Karıştırma</string>
+    <string name="joker_shuffle_desc">Griddeki harfleri rastgele karıştırır.</string>
+
+    <string name="joker_party_name">Parti Güçlendiricisi</string>
+    <string name="joker_party_desc">Tüm harfleri yok eder ve tabloyu tamamen yeniler.</string>
+    <!-- Oyun Bitirme -->
+    <string name="exit_confirmation_title">Oyundan Çık</string>
+    <string name="exit_confirmation_message">Oyundan çıkmak istediğinize emin misiniz? Mevcut skorunuz kaydedilecektir.</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+</resources>
