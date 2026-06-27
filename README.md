@@ -179,8 +179,6 @@ gradlew.bat assembleDebug
 
 Derlenen APK: `app/build/outputs/apk/debug/app-debug.apk`
 
-> `local.properties` dosyası SDK yolunuzu içerir ve makinenize özeldir — Git'e eklenmemelidir (`.gitignore` içinde).
-
 ---
 
 ## Proje Yapısı
